@@ -1,0 +1,5 @@
+name: acquia-demo
+recipe: drupal9
+config:
+  php: '7.4'
+  webroot: web
