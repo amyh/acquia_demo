@@ -1,0 +1,8 @@
+testimonial.example:
+  path: '/testimonial/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\testimonial\Controller\TestimonialController::build'
+  requirements:
+    _permission: 'access content'
+

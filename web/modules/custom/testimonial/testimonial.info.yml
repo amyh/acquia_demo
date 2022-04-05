@@ -1,0 +1,7 @@
+name: testimonial
+type: module
+description: Creates a testimonial block with quote and speaker text fields
+package: Custom
+core_version_requirement: ^9
+dependencies:
+  - drupal:block
