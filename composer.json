@@ -17,8 +17,10 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.3",
-        "drupal/core-project-message": "^9.3",
-        "drupal/core-recommended": "^9.3"
+        "drupal/core-recommended": "^9.3",
+        "drupal/field_group": "^3.2",
+        "drupal/pathauto": "^1.9",
+        "drupal/redirect": "^1.7"
     },
     "conflict": {
         "drupal/drupal": "*"
