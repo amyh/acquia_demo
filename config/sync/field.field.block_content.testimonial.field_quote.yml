@@ -1,0 +1,21 @@
+uuid: cfd29819-ace4-4d1a-9047-0b4796300a50
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonial
+    - field.storage.block_content.field_quote
+_core:
+  default_config_hash: i06R9YFc_yH_XxYqdY5UiPqb4cngkvREvNChOL_39b0
+id: block_content.testimonial.field_quote
+field_name: field_quote
+entity_type: block_content
+bundle: testimonial
+label: quote
+description: Quote
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

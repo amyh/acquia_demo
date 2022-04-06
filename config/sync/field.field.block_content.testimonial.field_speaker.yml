@@ -1,0 +1,21 @@
+uuid: f300d3cb-5df9-4157-a33d-1c5e74cfcfc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonial
+    - field.storage.block_content.field_speaker
+_core:
+  default_config_hash: fWtyM24JD8jzq9wSVJfKu6tIPuhbnY674KF-gjFZ__U
+id: block_content.testimonial.field_speaker
+field_name: field_speaker
+entity_type: block_content
+bundle: testimonial
+label: speaker
+description: 'Name of speaker'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 879b825f-ab26-4479-8ae3-cdfc2802a51d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hOpYfCyFGv1WS59ncYWhjtv49-3Vb1-Z4Axd28gAU9M
+id: testimonial
+label: 'Testimonial block'
+revision: 0
+description: 'Custom block type containing quote and speaker fields'
