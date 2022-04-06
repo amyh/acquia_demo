@@ -1,8 +1,9 @@
-testimonial.example:
-  path: '/testimonial/example'
+testimonial.block_type:
+  path: '/block/block-content/manage/testimonial'
+  options:
+    _admin_route: TRUE
   defaults:
-    _title: 'Example'
+    _title: 'Testimonial'
     _controller: '\Drupal\testimonial\Controller\TestimonialController::build'
   requirements:
-    _permission: 'access content'
-
+    _permission: 'administer blocks'
