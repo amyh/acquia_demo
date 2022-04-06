@@ -4,6 +4,6 @@ testimonial.block_type:
     _admin_route: TRUE
   defaults:
     _title: 'Testimonial'
-    _controller: '\Drupal\testimonial\Controller\TestimonialController::build'
+    _controller: '\Drupal\testimonial\Controller\TestimonialController'
   requirements:
     _permission: 'administer blocks'

@@ -2,24 +2,7 @@
 
 namespace Drupal\testimonial\Controller;
 
-use Drupal\Core\Controller\ControllerBase;
-
 /**
  * Returns responses for testimonial routes.
  */
-class TestimonialController extends ControllerBase {
-
-  /**
-   * Builds the response.
-   */
-  public function build() {
-
-    $build['content'] = [
-      '#type' => 'item',
-      '#markup' => $this->t('It works!'),
-    ];
-
-    return $build;
-  }
-
-}
+class TestimonialController extends BlockContentController {}
