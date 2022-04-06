@@ -6,4 +6,7 @@ config:
 tooling:
   phpcs:
     service: appserver
-    cmd: /app/vendor/bin/phpcs
+    cmd: "/app/vendor/bin/phpcs --standard=Drupal,DrupalPractice"
+  phpcbf:
+    service: appserver
+    cmd: "/app/vendor/bin/phpcbf --standard=Drupal"
